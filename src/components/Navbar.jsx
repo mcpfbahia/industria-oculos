@@ -109,7 +109,7 @@ const Navbar = () => {
                             initial="hidden"
                             animate="visible"
                             exit="exit"
-                            className="fixed top-0 right-0 w-[280px] h-screen bg-white z-[120] shadow-2xl flex flex-col"
+                            className="fixed top-0 right-0 w-[280px] h-screen bg-gradient-to-br from-white to-blue-50 z-[120] shadow-2xl flex flex-col"
                         >
                             <div className="p-6 flex justify-between items-center border-b border-secondary/5">
                                 <img src="/logo-original.png" alt="Logo" className="h-10 w-auto" />
