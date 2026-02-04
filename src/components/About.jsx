@@ -20,9 +20,9 @@ const About = () => {
                         loading="lazy"
                         decoding="async"
                     />
-                    <div className="absolute -bottom-6 -right-6 bg-primary p-8 rounded-2xl shadow-xl z-20 hidden md:block">
-                        <p className="text-white font-bold text-4xl mb-1">20+</p>
-                        <p className="text-white/80 text-sm">Anos de Experiência<br />no Mercado</p>
+                    <div className="absolute -bottom-6 -right-6 bg-primary p-8 rounded-2xl shadow-xl z-20 hidden md:block border-4 border-white/10">
+                        <p className="text-white font-black text-4xl mb-1">Alta</p>
+                        <p className="text-white/80 text-xs font-bold uppercase tracking-[0.2em]">Precisão Visual</p>
                     </div>
                 </motion.div>
 
