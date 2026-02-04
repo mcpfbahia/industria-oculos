@@ -24,11 +24,10 @@ const Hero = () => {
                             Tecnologia em Lentes • Salvador
                         </span>
                         <h1 className="text-4xl md:text-7xl font-extrabold mb-8 leading-tight text-secondary">
-                            Enxergue o mundo com a <span className="text-primary italic">nitidez</span> que você merece.
+                            Cuidado visual com <span className="text-primary italic">responsabilidade</span>, conforto e tecnologia
                         </h1>
                         <p className="text-lg md:text-2xl text-secondary/80 mb-10 max-w-xl leading-relaxed">
-                            Especialistas em lentes de alta tecnologia para altas dioptrias e visão multifocal.
-                            Atendimento humanizado para quem busca qualidade de vida.
+                            Ótica especializada em vendas de lentes para óculos monofocais e multifocais digitais. Atendimento humanizado para quem busca qualidade de vida.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-6 items-start sm:items-center">
@@ -36,11 +35,11 @@ const Hero = () => {
                                 href="https://wa.me/5571988186767"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="btn-primary inline-flex items-center gap-3 animate-pulse-soft text-xl py-5 px-10"
+                                className="btn-primary inline-flex items-center gap-3 animate-pulse-soft text-lg py-4 px-8"
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                             >
-                                Agende com um especialista
+                                Agende seu horário com especialista
                                 <ChevronRight size={24} />
                             </motion.a>
 

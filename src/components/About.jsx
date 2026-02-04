@@ -32,9 +32,10 @@ const About = () => {
                 >
                     <h2 className="text-3xl md:text-4xl mb-6">Tradição, Acolhimento e Tecnologia</h2>
                     <p className="text-lg text-secondary/80 mb-8 leading-relaxed">
-                        Com mais de 20 anos de experiência, a Indústria de Óculos prioriza o acolhimento familiar.
-                        Unimos modernidade na produção de lentes digitais com o pilar do cuidado humano,
-                        garantindo consultoria personalizada e compromisso real com a sua adaptação visual.
+                        A Indústria de Óculos é uma empresa que busca acolher todos os públicos, tendo como foco principal atendimento à família.
+                        Trazendo tecnologia e modernidade em suas produções, traz o cuidado com o cliente como prioridade, tornando o pilar do nosso trabalho.
+                        Abrangendo mais de vinte anos de experiência no mercado, buscamos sempre evoluir, oferecendo: Consultoria personalizada,
+                        compromisso com a entrega, lentes de qualidade, preços acessíveis, atendimento humanizado, tecnologia moderna, garantia e assistência técnica inclusa no serviço.
                     </p>
 
                     <div className="space-y-6">

@@ -51,9 +51,9 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-4 md:px-8 flex justify-between items-center">
                 <a href="/" className="flex items-center">
                     <img
-                        src="/logo-original.png"
+                        src="/logo-transparente.png"
                         alt="Logo"
-                        className={`transition-all duration-500 ${scrolled ? 'h-14 md:h-16' : 'h-16 md:h-20'} w-auto object-contain brightness-110`}
+                        className={`transition-all duration-500 ${scrolled ? 'h-16 md:h-20' : 'h-20 md:h-28'} w-auto object-contain brightness-110`}
                     />
                 </a>
 
@@ -112,7 +112,7 @@ const Navbar = () => {
                             className="fixed top-0 right-0 w-[280px] h-screen bg-gradient-to-br from-white to-blue-50 z-[120] shadow-2xl flex flex-col"
                         >
                             <div className="p-6 flex justify-between items-center border-b border-secondary/5">
-                                <img src="/logo-original.png" alt="Logo" className="h-10 w-auto" />
+                                <img src="/logo-transparente.png" alt="Logo" className="h-10 w-auto" />
                                 <button
                                     onClick={() => setMobileMenuOpen(false)}
                                     className="p-2 text-secondary/40 hover:text-primary transition-colors"

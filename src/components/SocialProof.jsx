@@ -61,7 +61,7 @@ const SocialProof = () => {
                                     <h4 className="font-bold text-secondary">{review.name}</h4>
                                     <p className="text-xs text-secondary/50">{review.date}</p>
                                 </div>
-                                <img src="/logo.png" alt="Logo" className="h-6 opacity-20" />
+                                <img src="/logo-transparente.png" alt="Logo" className="h-6 opacity-20" />
                             </div>
                         </motion.div>
                     ))}
@@ -69,7 +69,7 @@ const SocialProof = () => {
 
                 <div className="mt-12 text-center">
                     <a
-                        href="https://www.google.com/search?sca_esv=37b29cacd6547f1e&hl=pt-BR&gl=br&output=search&kgmid=/g/1tfctdxg&q=Ind%C3%BAstria+de+%C3%93culos"
+                        href="https://share.google/HXljAolQDKnjGYvN2"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 text-primary font-bold hover:underline"

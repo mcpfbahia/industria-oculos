@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto px-4 md:px-8 grid md:grid-cols-3 gap-12 mb-16">
                 {/* Branding & Contact */}
                 <div>
-                    <img src="/logo.png" alt="Indústria de Óculos" className="h-24 mb-6" />
+                    <img src="/logo-transparente.png" alt="Indústria de Óculos" className="h-32 mb-6" />
                     <p className="text-secondary/70 mb-8 leading-relaxed">
                         Especialistas em lentes de alta tecnologia e atendimento humanizado em Salvador.
                         Cuidando da sua visão com responsabilidade e precisão.
@@ -15,17 +15,20 @@ const Footer = () => {
                     <div className="space-y-4">
                         <div className="flex gap-4 text-secondary/70">
                             <MapPin className="text-primary shrink-0" />
-                            <span>Rua Hélio Machado, 47 A, Boca do Rio, Salvador - BA</span>
+                            <span>Rua Hélio Machado, 47 A . Boca do Rio</span>
                         </div>
                         <div className="flex gap-4 text-secondary/70">
                             <Phone className="text-primary shrink-0" />
-                            <span>71 3371-8478</span>
+                            <div className="flex flex-col">
+                                <span>71 3371-8478</span>
+                                <span>71 98818-6767 (WhatsApp)</span>
+                            </div>
                         </div>
                         <div className="flex gap-4 text-secondary/70">
                             <Clock className="text-primary shrink-0" />
                             <div>
-                                <p>Seg a Sex: 08:30 às 17:30</p>
-                                <p>Sáb: 08:30 às 13:00</p>
+                                <p>Segunda à sexta das 08:30 às 17:30</p>
+                                <p>Sábados das 08:30 às 13:00</p>
                             </div>
                         </div>
                     </div>

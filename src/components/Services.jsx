@@ -41,9 +41,10 @@ const Services = () => {
             <div className="section-padding">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl mb-4">Especialidades que transformam sua visão</h2>
-                    <p className="text-secondary/70 max-w-2xl mx-auto">
-                        Utilizamos o que há de mais moderno na indústria óptica mundial para entregar
-                        soluções personalizadas para cada perfil de cliente.
+                    <p className="text-secondary/70 max-w-4xl mx-auto leading-relaxed">
+                        Nosso objetivo é oferecer soluções ópticas de alta qualidade, garantindo precisão visual por meio de lentes e produtos confiáveis,
+                        aliados à um atendimento técnico especializado. Buscamos proporcionar uma experiência completa e personalizada, orientando à todos
+                        na escolha das melhores opções para suas necessidades visuais, sempre com conforto, segurança e transparência.
                     </p>
                 </div>
 

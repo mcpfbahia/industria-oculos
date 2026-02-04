@@ -48,7 +48,7 @@ const ThankYou = () => {
                 </div>
 
                 <div className="mt-16 pt-8 border-t border-secondary/5">
-                    <img src="/logo.png" alt="Indústria de Óculos" className="h-12 mx-auto grayscale opacity-50" />
+                    <img src="/logo-transparente.png" alt="Indústria de Óculos" className="h-12 mx-auto grayscale opacity-50" />
                 </div>
             </motion.div>
         </div>
