@@ -14,9 +14,11 @@ const About = () => {
                     className="relative"
                 >
                     <img
-                        src="/about.png"
+                        src="/about-atendimento.png"
                         alt="Atendimento Humanizado"
-                        className="rounded-3xl shadow-2xl relative z-10"
+                        className="rounded-3xl shadow-2xl relative z-10 w-full object-cover"
+                        loading="lazy"
+                        decoding="async"
                     />
                     <div className="absolute -bottom-6 -right-6 bg-primary p-8 rounded-2xl shadow-xl z-20 hidden md:block">
                         <p className="text-white font-bold text-4xl mb-1">20+</p>
